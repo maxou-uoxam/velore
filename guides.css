@@ -1,0 +1,46 @@
+.guideDL, .guideTitle, .guideDesc {
+	color: black;
+}
+
+#guides {
+	width: 80%;
+	margin: 10px 10%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: white;
+}
+
+.guide:hover {
+	box-shadow: 0px 0px 5px rgba(0,0,0,1);
+}
+
+.guide {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+	transition: all ease 250ms;
+}
+
+.guideBox {
+	padding-left: 10px;
+	border-left: solid grey 1px;
+}
+
+.guideImage {
+	min-width: 100px;
+	min-height: 100px;
+	margin: 5px;
+	border-radius: 5px;
+}
+#guideImg{
+	background: white url("./image/guide_city.jpg") center center no-repeat;
+	background-size: cover;
+}
+#guideImg2{
+	background: white url("./image/guide_mountain.jpg") center center no-repeat;
+	background-size: cover;
+
+}

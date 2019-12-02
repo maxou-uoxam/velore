@@ -1,0 +1,97 @@
+body {
+/*	background-color: white;
+*/	background: url('image/besttrip2_blur.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+#content {
+	padding: 25px;
+}
+
+#guide ul {
+	list-style-type: none;
+	padding: 10px;
+}
+
+#guide ul li {
+	padding: 10px;
+}
+
+#guide {
+	text-align: center;
+	background-color: rgba(255,255,255,0.85);
+	padding: 20px;
+	border: 2px solid #ff0266;
+	border-radius: 2px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#course_name {
+	text-transform: uppercase;
+	font-size: 2em;
+	padding: 10px;
+}
+
+#place_desctiption {
+	padding: 10px;
+}
+
+.blocs{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 25px;
+}
+
+.bloc {
+	border: 2px solid #ff0266;
+	border-radius: 2px;
+	background-color: rgba(255,255,255,0.85);
+	width: 200px;
+	padding: 10px;
+}
+
+.commentaire {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	min-height: 400px;
+	padding: 5%;
+}
+
+textarea {
+	resize: none;
+	border: 2px solid black;
+	font-family: sans-serif;
+	width: 100%;
+}
+
+#reviews {
+	margin: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: white;
+}
+.review {
+	border: 2px solid black;
+	padding: 10px;
+}
+
+#subbtn {
+	width: 150px;
+	height: 35px;
+	font-size: 14px;
+	background-color: #fff;
+	border: 2px solid #ff0266;
+	font-weight: bold;
+	color: black;
+	transition: all ease 0.5s;
+}
+#subbtn:hover {
+	background-color: #ff0266;
+	color: white;
+}

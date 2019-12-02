@@ -1,0 +1,51 @@
+* {
+	list-style: none;
+}
+/* FAQ - CSS */
+.FAQ{
+	text-align: center;
+	margin: 20px;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-bottom: 20px;
+	position: relative;
+	padding-right: 30px;
+	box-shadow: 0px 0px 3px 3px #CECECE;
+}
+.FAQ:hover{
+	box-shadow: 1px 1px 3px 3px #CECECE;
+}
+.FAQ>ul>li{
+	display: flex;
+	flex-direction: column;
+	padding: 2px 20px 20px;
+	padding-bottom: 30px;
+	margin-top: 10px;
+	width: 100%;
+	color: #130E0A;
+
+}
+.FAQ>ul>li>ul{
+	color: #130E0A;
+	border-bottom: solid 1px #CECECE;
+	margin-right: 100px;
+	margin-left: 100px;
+	transition: all 0.2s ease;
+}
+.FAQ>ul>li>ul:hover{
+	border-bottom: solid 1px black;
+}
+.FAQ>ul>li>ul>li{
+	padding: 10px;
+	width: 100%;
+}
+@media screen and (max-width: 730px)
+{
+	.FAQ>ul>li>ul{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+}
+footer{
+	position: relative;
+}

@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+
+a:visited, a{
+	text-decoration: none;
+	color: white;
+}
+
+/* HEADER - NAV BAR */
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-color: #ff0266;
+	min-height: 50px;
+}
+
+header > h1 {
+	flex: 1 1 auto;
+	line-height: 50px;
+	margin-left: 40px;
+	text-transform: uppercase;
+	color: white;
+}
+
+header > h1 > a {
+	text-decoration: none;
+	color: white;
+}
+
+header > nav {
+	float: right;
+	margin-right: 4%;
+}
+header > nav > ul > li {
+	display: inline-block;
+	line-height: 50px;
+}
+
+header > nav > ul > li > a {
+	display: block;
+	padding: 0 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all ease 500ms;
+	position: relative;
+}
+
+header > nav > ul > li > a:hover {
+	color: rgb(230,230,230);
+}
+
+header > nav > ul > li > a::before {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	background-color: white;
+	left: 0%;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 500ms ease;
+}
+
+header > nav > ul > li > a:hover::before {
+	transform: scaleX(1);
+}
+
+/* FOOTER */
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+footer > section {
+	font-weight: bold;
+	display: inline-block;
+	padding: 20px 30px;
+}
+
+footer > section > article {
+	font-weight: normal;
+	font-size: 10px;
+	margin-top: 10px;
+	text-align: left;
+}
